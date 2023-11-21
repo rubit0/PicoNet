@@ -1,0 +1,14 @@
+{
+    "name": "studio-delatorre.piconet",
+    "rootNamespace": "Piconet",
+    "references": ["GUID:838c61681ccc591499312a7450cd8f6e"],
+    "includePlatforms": [],
+    "excludePlatforms": [],
+    "allowUnsafeCode": false,
+    "overrideReferences": false,
+    "precompiledReferences": [],
+    "autoReferenced": true,
+    "defineConstraints": [],
+    "versionDefines": [],
+    "noEngineReferences": false
+}
