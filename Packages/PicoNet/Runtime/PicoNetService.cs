@@ -24,7 +24,7 @@ namespace PicoNet
         /// <summary>
         /// The App Id used for identifying this client with other peers
         /// </summary>
-        public string AppId { get; private set; }
+        public string AppId { get; set; }
         /// <summary>
         /// Amount of connected peers in the network
         /// </summary>

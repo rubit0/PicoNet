@@ -1,28 +1,25 @@
 {
-    "name": "com.studio-delatorre.piconet",
-    "version": "1.0.0",
-    "displayName": "PicoNet",
-    "description": "PicoNet a light weight LiteNetLib networking wrapper for Unity",
-    "unity": "2021.3",
-    "unityRelease": "32f1",
-    "dependencies": {
-   },
-   "keywords": [
-      "networking",
-      "unity",
-      "peer2peer"
-    ],
-    "author": {
-      "name": "Ruben de la Torre",
-      "email": "hello@studio-delatorre.com",
-      "url": "https://github.com/rubit0/PicoNet"
-    },
-    "samples": [
-      {
-        "displayName": "Main Sample",
-        "description": "The main sample uses a simple chat system to present the gist of the framework.",
-        "path": "Samples~/MainSample"
-      }
-    ]
-  }
-  
+  "name": "com.studio-delatorre.piconet",
+  "version": "1.0.1",
+  "displayName": "PicoNet",
+  "description": "PicoNet a light weight LiteNetLib networking wrapper for Unity",
+  "unity": "2021.3",
+  "unityRelease": "32f1",
+  "keywords": [
+    "networking",
+    "unity",
+    "peer2peer"
+  ],
+  "author": {
+    "name": "Ruben de la Torre",
+    "email": "hello@studio-delatorre.com",
+    "url": "https://github.com/rubit0/PicoNet"
+  },
+  "samples": [
+    {
+      "displayName": "Main Sample",
+      "description": "The main sample uses a simple chat system to present the gist of the framework.",
+      "path": "Samples~/MainSample"
+    }
+  ]
+}
