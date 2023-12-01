@@ -1,6 +1,6 @@
 {
   "name": "com.studio-delatorre.piconet",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "displayName": "PicoNet",
   "description": "PicoNet a light weight LiteNetLib networking wrapper for Unity",
   "unity": "2021.3",

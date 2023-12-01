@@ -64,7 +64,7 @@ namespace PicoNet
         private NetManager _netManager;
         private EventBasedNetListener _listener;
         private PeerDiscoverySession _peerDiscoverySession;
-        private Dictionary<string, List<Action<string>>> _eventHandlersLookup;
+        private Dictionary<string, List<Action<string>>> _eventHandlersLookup = new Dictionary<string, List<Action<string>>>();
         private NetDataWriter _dataWriter;
         private Task _poolingTask;
         private bool _isInFocus;
@@ -100,7 +100,6 @@ namespace PicoNet
             _listener.PeerConnectedEvent += HandleOnPeerConnectedEvent;
             _listener.PeerDisconnectedEvent += HandleOnPeerDisconnectedEvent;
             _peerDiscoverySession = new PeerDiscoverySession(AppId, NetworkPort, _netManager, _listener);
-            _eventHandlersLookup = new Dictionary<string, List<Action<string>>>();
             _isInFocus = Application.isFocused;
             Application.focusChanged += hasFocus => _isInFocus = hasFocus; 
 
